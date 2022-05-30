@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorSample", "DecoratorSample\DecoratorSample.csproj", "{957EDD50-C4AA-41B1-912D-8B90A964F327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorSampleDotNet", "DecoratorSampleDotNet\DecoratorSampleDotNet.csproj", "{CC75300A-D28E-48CE-8F60-4CFF55FDB370}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{957EDD50-C4AA-41B1-912D-8B90A964F327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957EDD50-C4AA-41B1-912D-8B90A964F327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957EDD50-C4AA-41B1-912D-8B90A964F327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957EDD50-C4AA-41B1-912D-8B90A964F327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC75300A-D28E-48CE-8F60-4CFF55FDB370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC75300A-D28E-48CE-8F60-4CFF55FDB370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC75300A-D28E-48CE-8F60-4CFF55FDB370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC75300A-D28E-48CE-8F60-4CFF55FDB370}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D9B3EA7-11E5-4F57-B92A-B82D414A2FF4}
+	EndGlobalSection
+EndGlobal
