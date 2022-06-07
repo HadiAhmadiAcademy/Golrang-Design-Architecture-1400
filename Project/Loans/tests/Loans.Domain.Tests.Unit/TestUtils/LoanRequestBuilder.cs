@@ -1,5 +1,6 @@
 ﻿using System;
 using Loans.Domain.Model;
+using Loans.Domain.Model.LoanRequests;
 
 namespace Loans.Domain.Tests.Unit.TestUtils
 {

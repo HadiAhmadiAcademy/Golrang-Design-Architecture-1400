@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Loans.Domain.Model
+namespace Loans.Domain.Model.LoanRequests
 {
     public class LoanRequest
     {
@@ -20,12 +16,15 @@ namespace Loans.Domain.Model
             this.IssueDate = issueDate;
             this.Amount = amount;
             this.PayBackMonths = payBackMonths;
-            this.State = new DraftState();
+            this.State = LoanRequestState.InitializeState();
         }
         public void ChangeAmount(long amount)
         {
             if (this.State.CanEdit())
+            {
                 this.Amount = amount;
+            }
+            
             else
                 throw new InvalidOperationException();
         }
@@ -37,6 +36,7 @@ namespace Loans.Domain.Model
         public void Reject()
         {
             this.State = this.State.Reject();
+
         }
     }
 }

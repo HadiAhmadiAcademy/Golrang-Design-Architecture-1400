@@ -1,6 +1,7 @@
 using System;
 using FluentAssertions;
 using Loans.Domain.Model;
+using Loans.Domain.Model.LoanRequests;
 using Loans.Domain.Tests.Unit.TestUtils;
 using Xunit;
 

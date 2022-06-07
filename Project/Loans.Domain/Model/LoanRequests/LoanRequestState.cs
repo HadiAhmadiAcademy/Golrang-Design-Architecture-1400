@@ -1,9 +1,10 @@
 ﻿using System;
 
-namespace Loans.Domain.Model
+namespace Loans.Domain.Model.LoanRequests
 {
     public abstract class LoanRequestState
     {
+        public static LoanRequestState InitializeState()=> new DraftState();
         public abstract bool CanEdit();
         public abstract LoanRequestState Confirm();
         public abstract LoanRequestState Reject();
